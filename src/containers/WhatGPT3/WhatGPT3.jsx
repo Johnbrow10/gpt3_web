@@ -1,12 +1,12 @@
 import React from 'react'
-import { Features } from '../../components'
+import { Feature } from '../../components'
 import './whatGPT3.css'
 
 const WhatGPT3 = () => {
     return (
         <div className="gpt3__whatgpt3 section__margin" id='whpt3'>
             <div className="gpt3__whatgpt3-features">
-                <Features
+                <Feature
                     title="O que é GPT-3"
                     text="Nós achamos que amigos me enviam uma mensagem como prazer.
                       Toda a frente do prato ouviu oh deveria. Sua própria residência defeituosa nem 
@@ -22,17 +22,17 @@ const WhatGPT3 = () => {
                 <p>Explore a Biblioteca</p>
             </div>
             <div className="gpt3__whatgpt3-container">
-                <Features
+                <Feature
                     title="Chatboot"
                     text="Nós achamos que amigos me enviam uma mensagem como prazer. 
                     Toda a frente do prato ouviu oh deveria."
                 />
-                <Features
+                <Feature
                     title="Base de Conhecimento"
                     text="Na junta senhoria, ele insistiu para que a humanidade. Entrada de solteiro 
                     amigável por perto. Como colocar apartamentos próprios impossíveis b"
                 />
-                <Features
+                <Feature
                     title="Educação"
                     text="Na junta senhoria, ele insistiu para que a humanidade. Entrada de solteiro amigável por perto. 
                     Como colocar apartamentos próprios impossíveis b"
