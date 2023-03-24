@@ -58,6 +58,10 @@
     }
 
     .gpt3__features-container__feature {
-        margin: 0 1rem;
+        margin: 0 0 1rem;
+    }
+
+    .gpt3__features-container__feature-title div {
+        margin-bottom: 0.50rem;
     }
 }
