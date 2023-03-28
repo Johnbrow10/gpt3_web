@@ -7,7 +7,8 @@ import blog04 from './blog04.png'
 import blog05 from './blog05.png'
 import dropbox from './dropbox.png'
 import google from './google.png'
-import logo from './logo.png'
+import logoFlor from './logo.png'
+import logo from './logo.svg'
 import people from './people.png'
 import possibility from './possibility.png'
 import shopify from './shopify.png'
@@ -25,6 +26,7 @@ export {
     dropbox,
     google,
     logo,
+    logoFlor,
     people,
     possibility,
     shopify,
