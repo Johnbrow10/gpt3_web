@@ -5,7 +5,7 @@ const Article = ({ imgUrl, date, title }) => {
     return (
         <div className="gpt3__blog-container_article">
             <div className="gpt3__blog-container_article-image">
-                <img src={imgUrl} alt="blog imagem" />
+                <img loading='lazy' src={imgUrl} alt="blog imagem" />
             </div>
             <div className="gpt3__blog-container_article-content">
                 <div>

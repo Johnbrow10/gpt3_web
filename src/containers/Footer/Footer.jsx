@@ -20,7 +20,7 @@ const Footer = () => {
 
             <div className="gpt3__footer-links">
                 <div className="gpt3__footer-links_logo">
-                    <img src={logo} alt="logo do footer" />
+                    <img loading='lazy' src={logo} alt="logo do footer" />
                     <p>OpenAI Crechterwoord K12 182 DK Alknjkcb, Todos os Direitos reservados</p>
                 </div>
                 <div className="gpt3__footer-links_div">

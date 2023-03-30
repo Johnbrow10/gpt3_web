@@ -22,14 +22,14 @@ const Header = () => {
                 </div>
 
                 <div className="gpt3__header-content__people">
-                    <img src={people} alt="people" />
+                    <img loading='lazy' src={people} alt="people" />
                     <p>1.600 pessoas solicitaram acesso uma visita
                         nas últimas 24 horas
                     </p>
                 </div>
             </div>
             <div className="gpt3__header-image">
-                <img src={ai} alt="imagem inteligencia artificial" />
+                <img loading='lazy' src={ai} alt="imagem inteligencia artificial" />
             </div>
         </div>
     )
